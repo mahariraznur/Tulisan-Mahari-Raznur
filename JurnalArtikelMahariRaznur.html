@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurnal Artikel - Mahari Raznur</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        #about, #portfolio, #contact {
+            background-color: #f4f4f4;
+            margin: 2rem 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .portfolio-item {
+            display: inline-block;
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        form input, form textarea, form button {
+            margin: 0.5rem 0;
+            padding: 0.75rem;
+            font-size: 1rem;
+        }
+
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #45a049;
+        }
+
+        .articles {
+            text-align: left;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        .article {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .article h3 {
+            margin: 0;
+            color: #333;
+        }
+
+        .article p {
+            margin: 0.5rem 0 0;
+            color: #666;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jurnal Artikel Pribadi</h1>
+        <p>Selamat datang di jurnal artikel milik Mahari Raznur</p>
+    </header>
+
+    <nav>
+        <a href="#about">Tentang Saya</a>
+        <a href="#portfolio">Artikel Saya</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Mahari Raznur adalah seorang penulis yang gemar berbagi pemikiran melalui artikel. Anda dapat menuliskan deskripsi tentang diri Anda di sini.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Artikel Saya</h2>
+        <div class="articles">
+            <div class="article">
+                <h3>Judul Artikel 1</h3>
+                <p>Ringkasan singkat dari artikel pertama Anda.</p>
+            </div>
+            <div class="article">
+                <h3>Judul Artikel 2</h3>
+                <p>Ringkasan singkat dari artikel kedua Anda.</p>
+            </div>
+            <div class="article">
+                <h3>Judul Artikel 3</h3>
+                <p>Ringkasan singkat dari artikel ketiga Anda.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Saya</h2>
+        <form>
+            <input type="text" name="name" placeholder="Nama Anda" required>
+            <input type="email" name="email" placeholder="Email Anda" required>
+            <textarea name="message" rows="5" placeholder="Pesan Anda" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mahari Raznur. Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
